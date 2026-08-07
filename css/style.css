@@ -59,3 +59,46 @@ footer {
     padding: 30px;
     color: #666;
 }
+
+
+/* 購入エリア */
+
+.purchase {
+    text-align: center;
+}
+
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.booth-button {
+
+    display: inline-block;
+
+    margin-top: 20px;
+
+    padding: 15px 40px;
+
+    background-color: #ff5c5c;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+
+.booth-button:hover {
+
+    opacity: 0.8;
+
+}
