@@ -1,15 +1,61 @@
 body {
-    font-family: "Meiryo", sans-serif;
+    font-family: "Meiryo", "Yu Gothic", sans-serif;
     line-height: 1.8;
-    margin: 40px;
-    background-color: #f5f7fa;
+    margin: 0;
+    background-color: #f5f7fb;
     color: #333;
 }
 
-h1 {
-    color: #1a73e8;
+
+/* ヘッダー */
+header {
+    text-align: center;
+    background-color: white;
+    padding: 60px 20px;
+    margin-bottom: 30px;
 }
 
-p {
+
+header h1 {
+    font-size: 42px;
+    color: #1a73e8;
+    margin-bottom: 20px;
+}
+
+
+header p {
+    font-size: 20px;
+}
+
+
+/* 各セクション */
+section {
+    background-color: white;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+
+/* 見出し */
+h2 {
+    color: #1a73e8;
+    border-bottom: 2px solid #1a73e8;
+    padding-bottom: 10px;
+}
+
+
+/* リスト */
+li {
+    margin-bottom: 10px;
     font-size: 18px;
+}
+
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
 }
