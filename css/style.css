@@ -198,3 +198,41 @@ header img {
     }
 
 }
+
+/* EVM指標の判断ガイド */
+
+.evm-guide {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.evm-guide-item {
+    background-color: #f5f7fb;
+    border-left: 5px solid #1a73e8;
+    padding: 18px 20px;
+    border-radius: 6px;
+}
+
+.evm-guide-item h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #1a73e8;
+}
+
+.evm-guide-item p {
+    margin: 0;
+    font-size: 15px;
+}
+
+
+/* スマートフォン対応 */
+
+@media (max-width: 600px) {
+
+    .evm-guide {
+        grid-template-columns: 1fr;
+    }
+
+}
