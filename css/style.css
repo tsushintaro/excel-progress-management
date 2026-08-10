@@ -102,3 +102,12 @@ footer {
     opacity: 0.8;
 
 }
+
+/* 商品メイン画像 */
+header img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto 0;
+    border-radius: 8px;
+}
