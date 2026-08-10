@@ -150,3 +150,51 @@ header img {
     }
 
 }
+
+/* EVM指標表 */
+
+.evm-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-size: 16px;
+}
+
+.evm-table th,
+.evm-table td {
+    border: 1px solid #d9dee7;
+    padding: 14px;
+    text-align: left;
+}
+
+.evm-table th {
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+}
+
+.evm-table td:first-child {
+    font-weight: bold;
+    color: #1a73e8;
+    width: 70px;
+}
+
+.evm-table tr:nth-child(even) {
+    background-color: #f5f7fb;
+}
+
+
+/* スマートフォン対応 */
+
+@media (max-width: 600px) {
+
+    .evm-table {
+        font-size: 14px;
+    }
+
+    .evm-table th,
+    .evm-table td {
+        padding: 10px;
+    }
+
+}
