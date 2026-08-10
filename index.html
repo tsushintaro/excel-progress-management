@@ -9,10 +9,8 @@
         Excel進捗管理ツール｜EVM対応スケジュール管理システム
     </title>
 
-    <meta name="description" content="
-        Excelで利用できるEVM対応の進捗管理ツール。
-        WBS、PV、EV、AC、SPI、CPIによるプロジェクト管理を支援します。
-    ">
+    <meta name="description" content="Excelで予定・実績・コストを管理できるEVM対応の進捗管理ツール。WBS、PV、EV、AC、SPI、CPIでプロジェクトの進捗とコストを数値化します。">
+
 
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,235 +18,249 @@
 
 <body>
 
-<header>
-    <h1>Excel進捗管理ツール</h1>
+    <header>
+        <h1>Excel進捗管理ツール</h1>
 
-    <p>
-        EVM（Earned Value Management）対応<br>
-        プロジェクト進捗を見える化するExcelツール
-    </p>
-
-    <img src="images/main.png" alt="Excel進捗管理ツールの画面">
-</header>
-
-
-<section>
-
-<h2>プロジェクト管理で、このような悩みはありませんか？</h2>
-
-<ul>
-    <li>予定通り進んでいるか判断しにくい</li>
-    <li>進捗率だけでは本当の状況が分からない</li>
-    <li>Excelで手軽に管理したい</li>
-</ul>
-
-</section>
-
-<section>
-
-<h2>Excel進捗管理ツールの特徴</h2>
-
-<div class="feature-cards">
-
-    <div class="feature-card">
-        <h3>WBS管理</h3>
         <p>
-            プロジェクトのタスクを階層的に整理し、
-            計画と実績を管理できます。
+            <strong>予定と実績を、数字で見る。</strong><br>
+            EVM対応 Excel進捗管理ツール
         </p>
-    </div>
 
-    <div class="feature-card">
-        <h3>EVM分析</h3>
+
+        <img src="images/main.png" alt="Excel進捗管理ツールの画面">
+    </header>
+
+
+    <section>
+
+        <h2>プロジェクト管理で、このような悩みはありませんか？</h2>
+
+        <ul>
+            <li>予定通り進んでいるか判断しにくい</li>
+            <li>進捗率だけでは本当の状況が分からない</li>
+            <li>Excelで手軽に管理したい</li>
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Excel進捗管理ツールの特徴</h2>
+
+        <div class="feature-cards">
+
+            <section>
+                <h2>なぜ、このツールを作ったのか</h2>
+
+                <p>
+                    プロジェクトでは、まずスケジュールを作成します。
+                </p>
+
+                <p>
+                    しかし、スケジュールを作っただけでは、
+                    予定に対して実際の作業がどこまで進んでいるのか分かりません。
+                </p>
+
+                <p>
+                    日々の実績を記録して予定と比較することで、
+                    「予定より進んでいるのか、遅れているのか」が見えてきます。
+                </p>
+
+                <p>
+                    さらに、進捗だけでなく、
+                    予定したコストに対して実際にどれだけコストがかかっているのかも
+                    把握する必要があります。
+                </p>
+
+                <p>
+                    <strong>
+                        「予定・実績・コストを一体として管理したい」
+                    </strong>
+                    という実務上の課題から、このツールを作りました。
+                </p>
+            </section>
+
+            <div class="feature-card">
+                <h3>WBS管理</h3>
+                <p>
+                    タスクを整理し、
+                    計画と実績を管理できます。
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>予定と実績を比較</h3>
+                <p>
+                    計画に対して、
+                    実際にどこまで進んだかを確認できます。
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>EVM分析</h3>
+                <p>
+                    PV・EV・ACから、
+                    プロジェクトの状態を数値化します。
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <h3>SPI・CPI</h3>
+                <p>
+                    スケジュールとコストの効率を
+                    数値で確認できます。
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>EVMとは？</h2>
+
         <p>
-            PV・EV・ACを使って、
-            プロジェクトの進捗状況を数値で確認できます。
+            EVM（Earned Value Management）は、
+            プロジェクトの「計画」「実際の進捗」「実際にかかったコスト」を
+            数値で比較し、プロジェクトの状況を把握するための管理手法です。
         </p>
-    </div>
 
-    <div class="feature-card">
-        <h3>SPI・CPI</h3>
         <p>
-            スケジュールとコストの状況を
-            SPI・CPIで評価できます。
+            単純な「進捗率」だけでは分かりにくい
+            スケジュールの遅れやコストの状況を、
+            客観的な指標で確認できます。
         </p>
-    </div>
 
-    <div class="feature-card">
-        <h3>Excelだけで利用可能</h3>
+
+        <h3>EVMで使用する主な指標</h3>
+
+        <table class="evm-table">
+
+            <thead>
+                <tr>
+                    <th>指標</th>
+                    <th>名称</th>
+                    <th>意味</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>PV</td>
+                    <td>Planned Value</td>
+                    <td>
+                        計画上、この時点までに完了しているはずの仕事の価値
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>EV</td>
+                    <td>Earned Value</td>
+                    <td>
+                        実際に完了した仕事の価値
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>AC</td>
+                    <td>Actual Cost</td>
+                    <td>
+                        実際にかかったコスト
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>SPI</td>
+                    <td>Schedule Performance Index</td>
+                    <td>
+                        スケジュールの進捗効率を示す指標
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>CPI</td>
+                    <td>Cost Performance Index</td>
+                    <td>
+                        コストの効率を示す指標
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <h3>EVM指標から分かること</h3>
+
+        <div class="evm-guide">
+
+            <h3>EVM指標から分かること</h3>
+
+            <div class="evm-guide">
+
+                <div class="evm-guide-item">
+                    <h4>SPI ― スケジュール</h4>
+                    <p>
+                        1.0未満：計画より遅れている可能性<br>
+                        1.0：計画どおり<br>
+                        1.0超：計画より進んでいる可能性
+                    </p>
+                </div>
+
+                <div class="evm-guide-item">
+                    <h4>CPI ― コスト</h4>
+                    <p>
+                        1.0未満：コスト効率が悪化している可能性<br>
+                        1.0：計画どおり<br>
+                        1.0超：コスト効率が良い可能性
+                    </p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2>こんな方におすすめ</h2>
+
+        <ul>
+            <li>Excelでプロジェクトのスケジュールを管理している</li>
+            <li>予定に対して実績がどこまで進んでいるか確認したい</li>
+            <li>プロジェクト全体の遅れを数値で把握したい</li>
+            <li>進捗だけでなく、コストの状況も確認したい</li>
+            <li>ExcelでEVMによる進捗管理を始めたい</li>
+        </ul>
+    </section>
+
+    <section class="purchase-section">
+        <h2>Excel進捗管理ツール</h2>
+
+        <p class="price">
+            5,980円
+        </p>
+
         <p>
-            特別なソフトを必要とせず、
-            使い慣れたExcelで利用できます。
+            Excelで、予定・実績・コストを一体管理。
         </p>
-    </div>
 
-</div>
+        <a href="https://booth.pm/ja/items/8526920" target="_blank" rel="noopener noreferrer" class="purchase-button">
+            BOOTHで購入する
+        </a>
+    </section>
 
-</section>
+    <footer>
 
-
-<section>
-
-<h2>EVMとは？</h2>
-
-<p>
-EVM（Earned Value Management）は、
-プロジェクトの「計画」「実際の進捗」「実際にかかったコスト」を
-数値で比較し、プロジェクトの状況を把握するための管理手法です。
-</p>
-
-<p>
-単純な「進捗率」だけでは分かりにくい
-スケジュールの遅れやコストの状況を、
-客観的な指標で確認できます。
-</p>
-
-
-<h3>EVMで使用する主な指標</h3>
-
-<table class="evm-table">
-
-    <thead>
-        <tr>
-            <th>指標</th>
-            <th>名称</th>
-            <th>意味</th>
-        </tr>
-    </thead>
-
-    <tbody>
-
-        <tr>
-            <td>PV</td>
-            <td>Planned Value</td>
-            <td>
-                計画上、この時点までに完了しているはずの仕事の価値
-            </td>
-        </tr>
-
-        <tr>
-            <td>EV</td>
-            <td>Earned Value</td>
-            <td>
-                実際に完了した仕事の価値
-            </td>
-        </tr>
-
-        <tr>
-            <td>AC</td>
-            <td>Actual Cost</td>
-            <td>
-                実際にかかったコスト
-            </td>
-        </tr>
-
-        <tr>
-            <td>SPI</td>
-            <td>Schedule Performance Index</td>
-            <td>
-                スケジュールの進捗効率を示す指標
-            </td>
-        </tr>
-
-        <tr>
-            <td>CPI</td>
-            <td>Cost Performance Index</td>
-            <td>
-                コストの効率を示す指標
-            </td>
-        </tr>
-
-    </tbody>
-
-</table>
-
-<h3>EVM指標から分かること</h3>
-
-<div class="evm-guide">
-
-    <div class="evm-guide-item">
-        <h4>SPIが1.0の場合</h4>
         <p>
-            計画どおりの進捗と考えられます。
+            © Excel進捗管理ツール
         </p>
-    </div>
 
-    <div class="evm-guide-item">
-        <h4>SPIが1.0未満の場合</h4>
-        <p>
-            計画に対して進捗が遅れている可能性があります。
-        </p>
-    </div>
-
-    <div class="evm-guide-item">
-        <h4>SPIが1.0より大きい場合</h4>
-        <p>
-            計画より進捗が進んでいる可能性があります。
-        </p>
-    </div>
-
-    <div class="evm-guide-item">
-        <h4>CPIが1.0の場合</h4>
-        <p>
-            計画したコストに対して、おおむね効率どおりに
-            プロジェクトが進んでいると考えられます。
-        </p>
-    </div>
-
-    <div class="evm-guide-item">
-        <h4>CPIが1.0未満の場合</h4>
-        <p>
-            計画したコストに対して、コスト効率が悪化している
-            可能性があります。
-        </p>
-    </div>
-
-    <div class="evm-guide-item">
-        <h4>CPIが1.0より大きい場合</h4>
-        <p>
-            計画したコストに対して、コスト効率が良い
-            可能性があります。
-        </p>
-    </div>
-
-</div>
-
-</section>
-
-<section class="purchase">
-
-<h2>購入</h2>
-
-<h3>
-スケジュール進捗管理システム Ver1.00
-</h3>
-
-<p>
-Excelで利用できるEVM対応の進捗管理ツールです。
-</p>
-
-<p class="price">
-価格：5,980円（税込）
-</p>
-
-<a 
-href="https://booth.pm/ja/items/8526920"
-class="booth-button"
-target="_blank">
-
-BOOTHで購入する
-
-</a>
-
-</section>
-
-<footer>
-
-<p>
-© Excel進捗管理ツール
-</p>
-
-</footer>
+    </footer>
 
 
 </body>
