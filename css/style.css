@@ -237,12 +237,3 @@ header img {
 
 }
 
-/* 購入ボタン */
-.purchase-button {
-    display: inline-block;
-    padding: 14px 32px;
-    margin-top: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-}
