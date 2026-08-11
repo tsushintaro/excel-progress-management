@@ -237,3 +237,10 @@ header img {
 
 }
 
+.evm-report-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+    border-radius: 8px;
+}
